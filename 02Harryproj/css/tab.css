@@ -1,0 +1,74 @@
+@media(max-width:786px) {
+          * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    overflow-x: hidden;
+          }
+          .h-primary{
+                    font-size: 1.9rem;
+                    padding: 11px;
+          }
+
+          #home {
+
+                    display: flex;
+                    flex-direction: column;
+                    height: 363px;
+                    padding: 3px 200px;
+                    justify-content: center;
+                    align-items: center;
+          }
+
+          #home h1 {
+                    color: white;
+                    text-align: center;
+                    font-family: 'Dancing Script', cursive;
+          }
+
+          #home p {
+                    color: white;
+                    text-align: center;
+                    font-size: 1.1rem;
+                    font-family: 'Dancing Script', cursive;
+          }
+
+          .btn {
+                    padding: 6px 30px;
+                    border: 2px solid white;
+                    background-color: gray;
+                    color: red;
+                    margin: 17px;
+                    font-size: 0.5rem;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    font-family: 'Oswald', sans-serif;
+          }
+
+          /* services  */
+          #services .box {
+
+                    border: 2px solid green;
+                    padding: 1rem;
+                    margin: 3px 6px;
+                    border-radius: 28px;
+                    background-color: #f2f2f2;
+          }
+
+          #services .box img {
+                    height: 150px;
+                    width: 150px;
+                    border-radius: 50%;
+                    margin: auto;
+                    display: block;
+          }
+
+          /* clients section  */
+          #clients img {
+                    height: 200px;
+                    width: 200px;
+                    padding: 20px;
+          }
+
+
+}

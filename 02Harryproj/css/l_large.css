@@ -1,0 +1,36 @@
+@media(max-width:1024px) {
+          #home {
+
+                    display: flex;
+                    flex-direction: column;
+                    height: 326px;
+                    padding: 3px 200px;
+                    justify-content: center;
+                    align-items: center;
+          }
+
+          /* services  */
+          #services .box {
+                    
+                    border: 2px solid green;
+                    padding: 13px;
+                    margin: 3px 6px;
+                    border-radius: 28px;
+                    background-color: #f2f2f2;
+          }
+
+          #services .box img {
+                    height: 200px;
+                    width: 200px;
+                    margin: auto;
+                    display: block;
+          }
+
+          /* client section */
+#clients img {
+          height: 252px;
+          width: 252px;
+          padding: 20px;
+}
+
+}
