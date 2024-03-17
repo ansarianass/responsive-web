@@ -84,7 +84,7 @@
 
 #home::before {
           content: " ";
-          background: url(/02Harryproj/Images/bg.avif);
+          background: url('/foodDelivery/Images/bg.avif');
           background-repeat: no-repeat;
           position: absolute;
           top: 0px;
@@ -140,7 +140,7 @@
 #client-section::before {
           content: " ";
           position: absolute;
-          background: url(/02Harryproj/Images/bg.avif);
+          background: url('/foodDelivery/Images/bg.avif');
           width: 100%;
           height: 67%;
           opacity: 0.5;
@@ -173,7 +173,7 @@
           width: 100%;
           z-index: -1;
           opacity: 0.8;
-          background: url(/02Harryproj/Images/contact.jpg);
+          background: url('/foodDelivery/Images/contact.jpg');
           background-position: top;
           background-size: cover;
 }
